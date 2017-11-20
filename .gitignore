@@ -1,0 +1,4 @@
+run.sh
+*.rpm
+*.zip
+tnsnames.ora
