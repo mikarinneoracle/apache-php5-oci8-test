@@ -4,10 +4,12 @@
 
 ### Download packages from OTN
 
-[http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html](http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html)
+[http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html](http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html)<p>
 Need to download:
-instantclient-basic-linux.x64-12.2.0.1.0.zip
-instantclient-sdk-linux.x64-12.2.0.1.0.zip
+<p>
+instantclient-basic-linux.x64-12.2.0.1.0.zip<br>
+instantclient-sdk-linux.x64-12.2.0.1.0.zip<br>
+<p>
 See the [Dockerfile](Dockerfile)
 
 ### Build the dbtest
