@@ -18,8 +18,8 @@ See the [Dockerfile](Dockerfile)
 
 ### Build the dbtestclient based on dbtest
 
-`cd client`
-`docker build -t dbtestclient .`
+`cd client<br>
+docker build -t dbtestclient .`
 
 ### YAML in OCCS
 
