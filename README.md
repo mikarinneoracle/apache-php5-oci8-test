@@ -55,7 +55,7 @@ services:
     environment:
       - 'DB_USERNAME=SYS'
       - 'DB_PASSWORD=&lt;your pwd&gt;''
-      - 'DB_CONNECT=&lt;your dbcs IP&gt;:1521/PDB1.&lt;your domain&gt;.oraclecloud.internal'
+      - 'DB_CONNECT=127.0.0.1:1521/PDB1.&lt;your domain&gt;.oraclecloud.internal'
       - 'occs:availability=per-pool'
       - 'occs:scheduler=random'
     ports:
