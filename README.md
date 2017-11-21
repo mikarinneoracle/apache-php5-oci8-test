@@ -21,7 +21,7 @@ See the [Dockerfile](Dockerfile)
 `cd client`<br>
 `docker build -t dbtestclient .`
 <p>
-See the [blob/master/client/Dockerfile](Dockerfile)
+See the [https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/client/Dockerfile](Dockerfile)
 
 ### YAML in OCCS
 
