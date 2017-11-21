@@ -10,7 +10,7 @@ Need to download:
 instantclient-basic-linux.x64-12.2.0.1.0.zip<br>
 instantclient-sdk-linux.x64-12.2.0.1.0.zip<br>
 <p>
-See the (blob/master/Dockerfile)[Dockerfile]
+See the [Dockerfile](blob/master/Dockerfile)
 
 ### Build the dbtest
 
