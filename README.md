@@ -49,7 +49,7 @@ opc      15352     1  0 Nov16 ?        00:00:00 ssh -nNT -L 1521:&lt;your dbcs I
 <p>
 The easiest way is to add your ssh public key to both the dbcs and occs (worker) and then login to occs worker node with ssh -A and then creating the ssh tunnel.
 <p>
-####OCCS YAML to use the dbcs over ssh:
+#### OCCS YAML to use the dbcs over ssh:
 <pre>
 version: 2
 services:
