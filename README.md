@@ -10,7 +10,7 @@ Need to download:
 instantclient-basic-linux.x64-12.2.0.1.0.zip<br>
 instantclient-sdk-linux.x64-12.2.0.1.0.zip<br>
 <p>
-See the [Dockerfile](Dockerfile)
+See the [https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/Dockerfile](Dockerfile)
 
 ### Build the dbtest
 
@@ -21,7 +21,7 @@ See the [Dockerfile](Dockerfile)
 `cd client`<br>
 `docker build -t dbtestclient .`
 <p>
-See the [blob/master/client/Dockerfile](Dockerfile)
+See the [https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/client/Dockerfile](Dockerfile)
 
 ### YAML in OCCS
 
