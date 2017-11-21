@@ -1,4 +1,4 @@
-# apache-php5-oci8-test
+# apache php5 oci8 Docker test on Oracle Container Cloud Service (OCCS) over ssh to DBCS
 
 ### Instructions
 
