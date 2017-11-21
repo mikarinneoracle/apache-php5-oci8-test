@@ -44,8 +44,10 @@ services:
 
 ### Running connection over ssh in OCCS
 
-Create ssh tunnel e.g.<p>
+Create ssh tunnel in the worker node e.g.<p>
 opc      15352     1  0 Nov16 ?        00:00:00 ssh -nNT -L 1521:&lt;your dbcs IP&gt;:1521 opc@&lt;your dbcs IP&gt;
+<p>
+The easiest way is to add your ssh public key to both the dbcs and occs (worker) and then login to occs worker node with ssh -A and then creating the ssh tunnel.
 
 <pre>
 version: 2
