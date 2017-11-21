@@ -9,12 +9,12 @@ Need to download:
 <p>
 instantclient-basic-linux.x64-12.2.0.1.0.zip<br>
 instantclient-sdk-linux.x64-12.2.0.1.0.zip<br>
-<p>
-See the https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/Dockerfile
 
 ### Build the dbtest
 
 `docker build -t dbtest .`
+<p>
+See the https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/Dockerfile
 
 ### Build the dbtestclient based on dbtest
 
@@ -25,10 +25,12 @@ See the https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/cli
 
 ### YAML in OCCS to connect to DBCS
 
+Push the dbtestclient to your Docker-hub e.g. `mikarinneoracle/dbtestclient:latest`
+
 <pre>
 version: 2
 services:
-  dbtestssh:
+  dbtest:
     image: 'mikarinneoracle/dbtestclient:latest'
     environment:
       - 'DB_USERNAME=SYS'
@@ -48,7 +50,7 @@ opc      15352     1  0 Nov16 ?        00:00:00 ssh -nNT -L 1521:&lt;your dbcs I
 <pre>
 version: 2
 services:
-  dbtestssh:
+  dbtestoverssh:
     image: 'mikarinneoracle/dbtestclient:latest'
     environment:
       - 'DB_USERNAME=SYS'
