@@ -4,13 +4,13 @@
 
 ### Download packages from OTN
 
-[http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html](http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html)<p>
+(http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html)[http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html]<p>
 Need to download:
 <p>
 instantclient-basic-linux.x64-12.2.0.1.0.zip<br>
 instantclient-sdk-linux.x64-12.2.0.1.0.zip<br>
 <p>
-See the [https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/Dockerfile](Dockerfile)
+See the (blob/master/Dockerfile)[Dockerfile]
 
 ### Build the dbtest
 
@@ -21,7 +21,7 @@ See the [https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/Do
 `cd client`<br>
 `docker build -t dbtestclient .`
 <p>
-See the [https://github.com/mikarinneoracle/apache-php5-oci8-test/blob/master/client/Dockerfile](Dockerfile)
+See the (blob/master/client/Dockerfile)[Dockerfile]
 
 ### YAML in OCCS
 
