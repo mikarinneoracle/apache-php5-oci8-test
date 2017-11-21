@@ -20,6 +20,8 @@ See the [Dockerfile](Dockerfile)
 
 `cd client`<br>
 `docker build -t dbtestclient .`
+<p>
+See the [blob/master/client/Dockerfile](Dockerfile)
 
 ### YAML in OCCS
 
